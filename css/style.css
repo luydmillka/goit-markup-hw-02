@@ -1,0 +1,115 @@
+* {padding: 0;
+    margin: 0;
+    border: 0;}
+body {font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--text);}
+a {text-decoration: none;}
+a:hover, a:focus {color: var(--hover);}
+ul {list-style: none;}
+:root {
+    --headers: #212121;
+    --logoblack: #000000;
+    --hover: #2196F3;
+    --text: #757575;
+    --bcglite: #E5E5E5;
+    --bcgdark: #2F303A;
+    --bcgbutton: #F5F4FA;
+    --white: #fff;
+}
+/* header */
+.logo {font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--hover);
+    margin-right: 93px;}
+.logo span {color: var(--logoblack);}
+.menu__link {font-weight: 500;
+    line-height: 1.14px;
+    color: var(--headers);}
+.header__contacts {font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--text);}
+
+/* hero */
+.hi {background-color: var(--bcgdark);}
+.hi__title {font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;}
+.hi__button {font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    color: var(--white);
+    background-color: var(--hover);
+    cursor: pointer;}
+
+/* about */
+.item__title {font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--headers);}
+.item_description {line-height: 1.71;
+    letter-spacing: 0.03em;}
+
+/* projects */
+.title {font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    letter-spacing: 0.03em;
+    color: var(--headers);}
+
+/* team */
+.employee__name {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--headers);}
+.employee__position {font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;}
+
+/* footer */
+.footer {background-color: var(--bcgdark);}
+.footer .logo span {color: var(--white);}
+.footer__addres {line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: var(--white);}
+.footer__contacts {line-height: 1.71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);}
+
+/* СТОРІНКА ПОРТФОЛІО */
+
+/* portfolio */
+.filter__button {font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    font-family: inherit;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--headers);
+    background-color: var(--bcgbutton);
+    cursor: pointer;}
+.filter__button:hover {color: var(--white);
+    background-color: var(--hover);}
+.portfolio__title {font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--headers);}
+.portfolio__desrription {font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text);}
