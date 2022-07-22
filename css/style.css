@@ -78,6 +78,7 @@ ul {
 
 /* about */
 .item__title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -146,7 +147,8 @@ ul {
   background-color: var(--bcgbutton);
   cursor: pointer;
 }
-.filter__button:hover {
+.filter__button:hover,
+.filter__button:focus {
   color: var(--white);
   background-color: var(--hover);
 }
